@@ -1,0 +1,2 @@
+# The pipeline/OCR dependencies stay in Docker. Only the browser runs on Windows.
+playwright>=1.51,<2

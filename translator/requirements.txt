@@ -1,0 +1,14 @@
+# Versions verified in the existing working CPU container.
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+pydantic==2.13.5
+requests==2.34.2
+ctranslate2==4.8.2
+sentencepiece==0.2.1
+gallery-dl==1.32.13
+numpy==2.3.5
+# PaddleX ocr-core pins this wheel. Install exactly one cv2 distribution: the
+# headless wheel shares its namespace and would make import order determine it.
+opencv-contrib-python==4.10.0.84
+paddleocr==3.7.0
+paddlex==3.7.2

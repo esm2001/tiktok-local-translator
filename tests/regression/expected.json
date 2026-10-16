@@ -1,0 +1,1354 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-03",
+  "media_root": "../TikTokTraducidos",
+  "media_root_env": "TIKTOK_REGRESSION_MEDIA",
+  "provenance": "Manual transcription from all 13 original local photographs reviewed visually. No model generated ground truth. Normalised boxes are manual approximate editorial regions, independent of predicted polygons.",
+  "detection_scope": "Readable editorial Latin text. Background text/equations and emoji are recorded separately. No recovery labels without a verified local/public source.",
+  "slides": {
+    "7659483315203804449_01": {
+      "post_id": "7659483315203804449",
+      "position": 1,
+      "image": "7659483315203804449/original/01.jpg",
+      "expected_lines": [
+        "Your biggest red flag =",
+        "Your philosopher."
+      ],
+      "expected_text": "Your biggest red flag =\nYour philosopher.",
+      "expected_regions": [
+        {
+          "box": [
+            0.13,
+            0.4,
+            0.87,
+            0.46
+          ],
+          "text": "Your biggest red flag ="
+        },
+        {
+          "box": [
+            0.17,
+            0.47,
+            0.74,
+            0.52
+          ],
+          "text": "Your philosopher."
+        }
+      ],
+      "expected_translation": "Tu mayor señal de alarma = tu filósofo.",
+      "translation_checks": [
+        [
+          "señal de alarma",
+          "bandera roja"
+        ],
+        [
+          "filósofo"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "tags": [
+        "little_text",
+        "known"
+      ],
+      "image_sha256": "bb50e49bccff6c6d0096869235ae252f4409009e7f0f79ffb333931fe99144fa"
+    },
+    "7659483315203804449_02": {
+      "post_id": "7659483315203804449",
+      "position": 2,
+      "image": "7659483315203804449/original/02.jpg",
+      "expected_lines": [
+        "You never admit",
+        "you're wrong.",
+        "Hegel",
+        "He rewrote reality",
+        "to fit his theory."
+      ],
+      "expected_text": "You never admit\nyou're wrong.\nHegel\nHe rewrote reality\nto fit his theory.",
+      "expected_regions": [
+        {
+          "box": [
+            0.21,
+            0.22,
+            0.74,
+            0.29
+          ],
+          "text": "You never admit"
+        },
+        {
+          "box": [
+            0.21,
+            0.3,
+            0.7,
+            0.37
+          ],
+          "text": "you're wrong."
+        },
+        {
+          "box": [
+            0.21,
+            0.44,
+            0.42,
+            0.51
+          ],
+          "text": "Hegel"
+        },
+        {
+          "box": [
+            0.21,
+            0.58,
+            0.82,
+            0.64
+          ],
+          "text": "He rewrote reality"
+        },
+        {
+          "box": [
+            0.21,
+            0.65,
+            0.75,
+            0.71
+          ],
+          "text": "to fit his theory."
+        }
+      ],
+      "expected_translation": "Nunca admites que estás equivocado.\nHegel.\nReescribió la realidad para que encajara con su teoría.",
+      "translation_checks": [
+        [
+          "nunca"
+        ],
+        [
+          "equivocado",
+          "te equivocas"
+        ],
+        [
+          "Hegel"
+        ],
+        [
+          "realidad"
+        ],
+        [
+          "teoría"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "tags": [
+        "ocr_recognition_error"
+      ],
+      "reconstruction_variants": [],
+      "image_sha256": "3ba5ca68d15bd45dfb61c6075fb5c79f214f7568eebe09b32b680bfe2ed58387"
+    },
+    "7659483315203804449_03": {
+      "post_id": "7659483315203804449",
+      "position": 3,
+      "image": "7659483315203804449/original/03.jpg",
+      "expected_lines": [
+        "You push everyone away",
+        "then wonder why",
+        "you're alone.",
+        "Nietzsche",
+        "Lived it. Wrote about it.",
+        "Changed nothing."
+      ],
+      "expected_text": "You push everyone away\nthen wonder why\nyou're alone.\nNietzsche\nLived it. Wrote about it.\nChanged nothing.",
+      "expected_regions": [
+        {
+          "box": [
+            0.1,
+            0.25,
+            0.9,
+            0.3
+          ],
+          "text": "You push everyone away"
+        },
+        {
+          "box": [
+            0.1,
+            0.31,
+            0.71,
+            0.36
+          ],
+          "text": "then wonder why"
+        },
+        {
+          "box": [
+            0.1,
+            0.37,
+            0.64,
+            0.42
+          ],
+          "text": "you're alone."
+        },
+        {
+          "box": [
+            0.1,
+            0.48,
+            0.44,
+            0.53
+          ],
+          "text": "Nietzsche"
+        },
+        {
+          "box": [
+            0.1,
+            0.59,
+            0.86,
+            0.64
+          ],
+          "text": "Lived it. Wrote about it."
+        },
+        {
+          "box": [
+            0.1,
+            0.66,
+            0.71,
+            0.71
+          ],
+          "text": "Changed nothing."
+        }
+      ],
+      "expected_translation": "Alejas a todo el mundo y luego te preguntas por qué estás solo.\nNietzsche.\nLo vivió. Escribió sobre ello. No cambió nada.",
+      "translation_checks": [
+        [
+          "alejas",
+          "apartas"
+        ],
+        [
+          "solo"
+        ],
+        [
+          "Nietzsche"
+        ],
+        [
+          "vivió"
+        ],
+        [
+          "escribió"
+        ],
+        [
+          "no cambió"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "tags": [
+        "person_preservation"
+      ],
+      "image_sha256": "3f745f345faf05d4dce543f55689769fbb3143d3734517e4b4aeda958ca0d9f0"
+    },
+    "7659483315203804449_04": {
+      "post_id": "7659483315203804449",
+      "position": 4,
+      "image": "7659483315203804449/original/04.jpg",
+      "expected_lines": [
+        "You self-sabotage",
+        "every good thing",
+        "in your life.",
+        "Schopenhauer",
+        "Suffering was his",
+        "comfort zone."
+      ],
+      "expected_text": "You self-sabotage\nevery good thing\nin your life.\nSchopenhauer\nSuffering was his\ncomfort zone.",
+      "expected_regions": [
+        {
+          "box": [
+            0.2,
+            0.25,
+            0.8,
+            0.3
+          ],
+          "text": "You self-sabotage"
+        },
+        {
+          "box": [
+            0.2,
+            0.31,
+            0.76,
+            0.36
+          ],
+          "text": "every good thing"
+        },
+        {
+          "box": [
+            0.2,
+            0.37,
+            0.63,
+            0.42
+          ],
+          "text": "in your life."
+        },
+        {
+          "box": [
+            0.2,
+            0.48,
+            0.69,
+            0.53
+          ],
+          "text": "Schopenhauer"
+        },
+        {
+          "box": [
+            0.2,
+            0.6,
+            0.77,
+            0.65
+          ],
+          "text": "Suffering was his"
+        },
+        {
+          "box": [
+            0.2,
+            0.66,
+            0.65,
+            0.71
+          ],
+          "text": "comfort zone."
+        }
+      ],
+      "expected_translation": "Saboteas todo lo bueno que hay en tu vida.\nSchopenhauer.\nEl sufrimiento era su zona de confort.",
+      "translation_checks": [
+        [
+          "saboteas",
+          "autosaboteas"
+        ],
+        [
+          "bueno",
+          "buena"
+        ],
+        [
+          "vida"
+        ],
+        [
+          "Schopenhauer"
+        ],
+        [
+          "sufrimiento"
+        ],
+        [
+          "zona de confort",
+          "zona de comodidad"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "tags": [
+        "word_spacing",
+        "natural_spanish"
+      ],
+      "image_sha256": "5c6e63c87e9e2905812e09b687e8172ba48f33a037ed24f1f00339245cb48ee8"
+    },
+    "7659483315203804449_05": {
+      "post_id": "7659483315203804449",
+      "position": 5,
+      "image": "7659483315203804449/original/05.jpg",
+      "expected_lines": [
+        "You question everything",
+        "until people hate you.",
+        "Socrates",
+        "They killed him for it."
+      ],
+      "expected_text": "You question everything\nuntil people hate you.\nSocrates\nThey killed him for it.",
+      "expected_regions": [
+        {
+          "box": [
+            0.1,
+            0.21,
+            0.9,
+            0.28
+          ],
+          "text": "You question everything"
+        },
+        {
+          "box": [
+            0.1,
+            0.3,
+            0.85,
+            0.37
+          ],
+          "text": "until people hate you."
+        },
+        {
+          "box": [
+            0.1,
+            0.46,
+            0.41,
+            0.53
+          ],
+          "text": "Socrates"
+        },
+        {
+          "box": [
+            0.1,
+            0.63,
+            0.82,
+            0.7
+          ],
+          "text": "They killed him for it."
+        }
+      ],
+      "expected_translation": "Lo cuestionas todo hasta que la gente te odia.\nSócrates.\nLo mataron por ello.",
+      "translation_checks": [
+        [
+          "cuestionas",
+          "preguntas"
+        ],
+        [
+          "todo"
+        ],
+        [
+          "odia",
+          "odien"
+        ],
+        [
+          "Sócrates"
+        ],
+        [
+          "mataron"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "tags": [
+        "tense_preservation"
+      ],
+      "image_sha256": "87525f2444aadc97c7d2543d4db92a71335e060883b7f622baf9375de4149354"
+    },
+    "7659483315203804449_06": {
+      "post_id": "7659483315203804449",
+      "position": 6,
+      "image": "7659483315203804449/original/06.jpg",
+      "expected_lines": [
+        "You burn everything",
+        "down",
+        "and call it freedom.",
+        "Diogenes",
+        "Homeless by choice.",
+        "No regrets."
+      ],
+      "expected_text": "You burn everything\ndown\nand call it freedom.\nDiogenes\nHomeless by choice.\nNo regrets.",
+      "expected_regions": [
+        {
+          "box": [
+            0.2,
+            0.1,
+            0.79,
+            0.18
+          ],
+          "text": "You burn everything"
+        },
+        {
+          "box": [
+            0.2,
+            0.19,
+            0.38,
+            0.26
+          ],
+          "text": "down"
+        },
+        {
+          "box": [
+            0.2,
+            0.28,
+            0.76,
+            0.35
+          ],
+          "text": "and call it freedom."
+        },
+        {
+          "box": [
+            0.2,
+            0.46,
+            0.48,
+            0.54
+          ],
+          "text": "Diogenes"
+        },
+        {
+          "box": [
+            0.2,
+            0.64,
+            0.8,
+            0.71
+          ],
+          "text": "Homeless by choice."
+        },
+        {
+          "box": [
+            0.2,
+            0.73,
+            0.53,
+            0.8
+          ],
+          "text": "No regrets."
+        }
+      ],
+      "expected_translation": "Lo quemas todo y lo llamas libertad.\nDiógenes.\nSin hogar por elección. Sin remordimientos.",
+      "translation_checks": [
+        [
+          "quemas",
+          "arrasas",
+          "incendias"
+        ],
+        [
+          "libertad"
+        ],
+        [
+          "Diógenes"
+        ],
+        [
+          "elección"
+        ],
+        [
+          "remordimientos",
+          "arrepentimientos"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "image_sha256": "0634ec607cb60fbee60d378cd7bea2830d05477a0ffc81c73185a2740cdb847b"
+    },
+    "7659483315203804449_07": {
+      "post_id": "7659483315203804449",
+      "position": 7,
+      "image": "7659483315203804449/original/07.jpg",
+      "expected_lines": [
+        "Which one are you?",
+        "Follow to think",
+        "differently."
+      ],
+      "expected_text": "Which one are you?\nFollow to think\ndifferently.",
+      "expected_regions": [
+        {
+          "box": [
+            0.13,
+            0.38,
+            0.79,
+            0.44
+          ],
+          "text": "Which one are you?"
+        },
+        {
+          "box": [
+            0.13,
+            0.48,
+            0.64,
+            0.53
+          ],
+          "text": "Follow to think"
+        },
+        {
+          "box": [
+            0.13,
+            0.53,
+            0.51,
+            0.57
+          ],
+          "text": "differently."
+        }
+      ],
+      "expected_translation": "¿Cuál eres tú?\nSigue para pensar de forma diferente.",
+      "translation_checks": [
+        [
+          "cuál"
+        ],
+        [
+          "sigue",
+          "sígueme"
+        ],
+        [
+          "diferente",
+          "distinta"
+        ]
+      ],
+      "source_expected": true,
+      "background_text": [
+        "MANANAAN GIVING THE SWORD TO LUGH."
+      ],
+      "ambiguous_fragments": [],
+      "source_evidence": {
+        "kind": "verified_public_source",
+        "image_url": "https://www.gutenberg.org/files/60859/60859-h/images/p3.jpg",
+        "file": "7659483315203804449/recovered/07_SOURCE.jpg"
+      },
+      "tags": [
+        "ocr_crop_retry",
+        "source_positive"
+      ],
+      "image_sha256": "c92efff69e498ac0ed07ecb557d7993e3979d76f1ba7e14b914d7757ece0ed19"
+    },
+    "7682913895333383456_01": {
+      "post_id": "7682913895333383456",
+      "position": 1,
+      "image": "7682913895333383456/original/01.jpg",
+      "expected_lines": [
+        "5 ways to increase",
+        "your thinking ability",
+        "(Full Guide)"
+      ],
+      "expected_text": "5 ways to increase\nyour thinking ability\n(Full Guide)",
+      "expected_regions": [
+        {
+          "box": [
+            0.2,
+            0.47,
+            0.78,
+            0.52
+          ],
+          "text": "5 ways to increase"
+        },
+        {
+          "box": [
+            0.18,
+            0.53,
+            0.82,
+            0.58
+          ],
+          "text": "your thinking ability"
+        },
+        {
+          "box": [
+            0.26,
+            0.62,
+            0.7,
+            0.68
+          ],
+          "text": "(Full Guide)"
+        }
+      ],
+      "expected_translation": "5 formas de mejorar tu capacidad de pensar.\n(Guía completa)",
+      "translation_checks": [
+        [
+          "5"
+        ],
+        [
+          "capacidad",
+          "habilidad"
+        ],
+        [
+          "pensar",
+          "pensamiento"
+        ],
+        [
+          "guía completa"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "tags": [
+        "split_line_order",
+        "translation_failure",
+        "little_text"
+      ],
+      "image_sha256": "d5089cc401e8336e2adb832493c10870f6395ff7cd51b1a09a32f51a27cf0705"
+    },
+    "7682913895333383456_02": {
+      "post_id": "7682913895333383456",
+      "position": 2,
+      "image": "7682913895333383456/original/02.jpg",
+      "expected_lines": [
+        "1. Schedule boredom.",
+        "Your best ideas don't come",
+        "in the shower by accident.",
+        "They come because the shower",
+        "is the only place you're",
+        "not stimulated. Block 30",
+        "minutes. No phone. No music.",
+        "No input. Let your brain",
+        "wander. It will go where",
+        "it needs to go."
+      ],
+      "expected_text": "1. Schedule boredom.\nYour best ideas don't come\nin the shower by accident.\nThey come because the shower\nis the only place you're\nnot stimulated. Block 30\nminutes. No phone. No music.\nNo input. Let your brain\nwander. It will go where\nit needs to go.",
+      "expected_regions": [
+        {
+          "box": [
+            0.27,
+            0.29,
+            0.74,
+            0.33
+          ],
+          "text": "1. Schedule boredom."
+        },
+        {
+          "box": [
+            0.22,
+            0.37,
+            0.81,
+            0.4
+          ],
+          "text": "Your best ideas don't come"
+        },
+        {
+          "box": [
+            0.23,
+            0.41,
+            0.8,
+            0.44
+          ],
+          "text": "in the shower by accident."
+        },
+        {
+          "box": [
+            0.17,
+            0.45,
+            0.86,
+            0.49
+          ],
+          "text": "They come because the shower"
+        },
+        {
+          "box": [
+            0.26,
+            0.49,
+            0.76,
+            0.53
+          ],
+          "text": "is the only place you're"
+        },
+        {
+          "box": [
+            0.26,
+            0.53,
+            0.78,
+            0.57
+          ],
+          "text": "not stimulated. Block 30"
+        },
+        {
+          "box": [
+            0.16,
+            0.57,
+            0.87,
+            0.61
+          ],
+          "text": "minutes. No phone. No music."
+        },
+        {
+          "box": [
+            0.25,
+            0.61,
+            0.77,
+            0.65
+          ],
+          "text": "No input. Let your brain"
+        },
+        {
+          "box": [
+            0.25,
+            0.65,
+            0.78,
+            0.69
+          ],
+          "text": "wander. It will go where"
+        },
+        {
+          "box": [
+            0.35,
+            0.69,
+            0.67,
+            0.73
+          ],
+          "text": "it needs to go."
+        }
+      ],
+      "expected_translation": "1. Reserva tiempo para aburrirte.\nTus mejores ideas no aparecen en la ducha por casualidad. Surgen porque es el único lugar donde no recibes estímulos. Reserva 30 minutos. Sin teléfono. Sin música. Sin estímulos. Deja que tu cerebro divague; irá donde necesite ir.",
+      "translation_checks": [
+        [
+          "1"
+        ],
+        [
+          "aburr"
+        ],
+        [
+          "ideas"
+        ],
+        [
+          "ducha"
+        ],
+        [
+          "casualidad",
+          "accidente"
+        ],
+        [
+          "30"
+        ],
+        [
+          "teléfono",
+          "móvil"
+        ],
+        [
+          "música"
+        ],
+        [
+          "cerebro",
+          "mente"
+        ]
+      ],
+      "source_expected": true,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "source_evidence": {
+        "kind": "visually_confirmed_local_original_source",
+        "file": "7682913895333383456/recovered/02_SOURCE.jpg"
+      },
+      "tags": [
+        "much_text",
+        "source_positive"
+      ],
+      "image_sha256": "b5b586d518ace67f6b3baca19944d2b084dd38c64ac8725682a6cfc437454b10"
+    },
+    "7682913895333383456_03": {
+      "post_id": "7682913895333383456",
+      "position": 3,
+      "image": "7682913895333383456/original/03.jpg",
+      "expected_lines": [
+        "2. Argue with yourself.",
+        "Don't agree with your first",
+        "thought. Write it down. Then",
+        "write the opposite. Force",
+        "your brain to defend both",
+        "sides. Weak ideas collapse.",
+        "Strong ones get stronger.",
+        "Most people never question",
+        "their own mind. You will."
+      ],
+      "expected_text": "2. Argue with yourself.\nDon't agree with your first\nthought. Write it down. Then\nwrite the opposite. Force\nyour brain to defend both\nsides. Weak ideas collapse.\nStrong ones get stronger.\nMost people never question\ntheir own mind. You will.",
+      "expected_regions": [
+        {
+          "box": [
+            0.24,
+            0.31,
+            0.75,
+            0.36
+          ],
+          "text": "2. Argue with yourself."
+        },
+        {
+          "box": [
+            0.2,
+            0.392,
+            0.8,
+            0.443
+          ],
+          "text": "Don't agree with your first"
+        },
+        {
+          "box": [
+            0.18,
+            0.443,
+            0.82,
+            0.481
+          ],
+          "text": "thought. Write it down. Then"
+        },
+        {
+          "box": [
+            0.21,
+            0.483,
+            0.79,
+            0.522
+          ],
+          "text": "write the opposite. Force"
+        },
+        {
+          "box": [
+            0.21,
+            0.525,
+            0.79,
+            0.563
+          ],
+          "text": "your brain to defend both"
+        },
+        {
+          "box": [
+            0.2,
+            0.563,
+            0.81,
+            0.604
+          ],
+          "text": "sides. Weak ideas collapse."
+        },
+        {
+          "box": [
+            0.21,
+            0.605,
+            0.8,
+            0.646
+          ],
+          "text": "Strong ones get stronger."
+        },
+        {
+          "box": [
+            0.18,
+            0.648,
+            0.83,
+            0.689
+          ],
+          "text": "Most people never question"
+        },
+        {
+          "box": [
+            0.23,
+            0.691,
+            0.77,
+            0.727
+          ],
+          "text": "their own mind. You will."
+        }
+      ],
+      "expected_translation": "2. Debate contigo mismo.\nNo aceptes tu primer pensamiento. Escríbelo y después escribe lo contrario. Obliga a tu cerebro a defender ambos puntos de vista. Las ideas débiles se desmoronan; las fuertes se fortalecen. La mayoría nunca cuestiona su propia mente. Tú sí lo harás.",
+      "translation_checks": [
+        [
+          "2"
+        ],
+        [
+          "contigo mismo"
+        ],
+        [
+          "primer"
+        ],
+        [
+          "escrib"
+        ],
+        [
+          "contrario",
+          "opuesto"
+        ],
+        [
+          "ambos",
+          "dos"
+        ],
+        [
+          "débiles"
+        ],
+        [
+          "fuertes"
+        ],
+        [
+          "mente"
+        ]
+      ],
+      "source_expected": true,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "source_evidence": {
+        "kind": "visually_confirmed_local_original_source",
+        "file": "7682913895333383456/recovered/03_SOURCE.jpg"
+      },
+      "tags": [
+        "ocr_recognition_error",
+        "source_positive"
+      ],
+      "image_sha256": "215f449bb2a221aae00126cdcf8495e3fe1c4318b409bd5370d7d1d79fcd8256"
+    },
+    "7682913895333383456_04": {
+      "post_id": "7682913895333383456",
+      "position": 4,
+      "image": "7682913895333383456/original/04.jpg",
+      "expected_lines": [
+        "3. Sleep on decisions.",
+        "Your brain processes while",
+        "you sleep. Not metaphorically.",
+        "Literally. The prefrontal",
+        "cortex shuts down. Other",
+        "regions reorganize. That",
+        "problem you couldn't solve?",
+        "Your brain solved it. You",
+        "just weren't awake to see it."
+      ],
+      "expected_text": "3. Sleep on decisions.\nYour brain processes while\nyou sleep. Not metaphorically.\nLiterally. The prefrontal\ncortex shuts down. Other\nregions reorganize. That\nproblem you couldn't solve?\nYour brain solved it. You\njust weren't awake to see it.",
+      "expected_regions": [
+        {
+          "box": [
+            0.28,
+            0.29,
+            0.73,
+            0.33
+          ],
+          "text": "3. Sleep on decisions."
+        },
+        {
+          "box": [
+            0.21,
+            0.37,
+            0.79,
+            0.4
+          ],
+          "text": "Your brain processes while"
+        },
+        {
+          "box": [
+            0.19,
+            0.41,
+            0.83,
+            0.44
+          ],
+          "text": "you sleep. Not metaphorically."
+        },
+        {
+          "box": [
+            0.25,
+            0.45,
+            0.77,
+            0.48
+          ],
+          "text": "Literally. The prefrontal"
+        },
+        {
+          "box": [
+            0.23,
+            0.49,
+            0.79,
+            0.52
+          ],
+          "text": "cortex shuts down. Other"
+        },
+        {
+          "box": [
+            0.24,
+            0.53,
+            0.77,
+            0.56
+          ],
+          "text": "regions reorganize. That"
+        },
+        {
+          "box": [
+            0.2,
+            0.56,
+            0.81,
+            0.6
+          ],
+          "text": "problem you couldn't solve?"
+        },
+        {
+          "box": [
+            0.24,
+            0.6,
+            0.77,
+            0.64
+          ],
+          "text": "Your brain solved it. You"
+        },
+        {
+          "box": [
+            0.2,
+            0.64,
+            0.81,
+            0.67
+          ],
+          "text": "just weren't awake to see it."
+        }
+      ],
+      "expected_translation": "3. Consulta las decisiones con la almohada.\nTu cerebro procesa información mientras duermes. Literalmente, no de forma metafórica. La corteza prefrontal se desactiva y otras regiones se reorganizan. ¿Ese problema que no podías resolver? Tu cerebro lo resolvió; tú no estabas despierto para verlo.",
+      "translation_checks": [
+        [
+          "3"
+        ],
+        [
+          "decisiones"
+        ],
+        [
+          "cerebro"
+        ],
+        [
+          "duermes"
+        ],
+        [
+          "literal"
+        ],
+        [
+          "prefrontal"
+        ],
+        [
+          "regiones"
+        ],
+        [
+          "problema"
+        ],
+        [
+          "resolvió"
+        ],
+        [
+          "despierto"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [
+        "A young Bobby Fischer at Lina Grumette's",
+        "The Chess Set in West Hollywood, California."
+      ],
+      "ambiguous_fragments": [],
+      "tags": [
+        "background_caption",
+        "source_not_found"
+      ],
+      "image_sha256": "cdba81cab08fbc3c284cc39d9e64139750764e2eafe0f211f6fa95a8aa490ffc"
+    },
+    "7682913895333383456_05": {
+      "post_id": "7682913895333383456",
+      "position": 5,
+      "image": "7682913895333383456/original/05.jpg",
+      "expected_lines": [
+        "4. Teach someone simpler.",
+        "If you can't explain it to",
+        "a child, you don't understand",
+        "it. Teaching forces your brain",
+        "to strip away complexity.",
+        "Find the core. The simple",
+        "truth. Most people hide",
+        "behind jargon. You will find",
+        "the signal. Then keep it."
+      ],
+      "expected_text": "4. Teach someone simpler.\nIf you can't explain it to\na child, you don't understand\nit. Teaching forces your brain\nto strip away complexity.\nFind the core. The simple\ntruth. Most people hide\nbehind jargon. You will find\nthe signal. Then keep it.",
+      "expected_regions": [
+        {
+          "box": [
+            0.24,
+            0.3,
+            0.76,
+            0.34
+          ],
+          "text": "4. Teach someone simpler."
+        },
+        {
+          "box": [
+            0.27,
+            0.38,
+            0.73,
+            0.41
+          ],
+          "text": "If you can't explain it to"
+        },
+        {
+          "box": [
+            0.23,
+            0.41,
+            0.8,
+            0.45
+          ],
+          "text": "a child, you don't understand"
+        },
+        {
+          "box": [
+            0.24,
+            0.45,
+            0.8,
+            0.48
+          ],
+          "text": "it. Teaching forces your brain"
+        },
+        {
+          "box": [
+            0.27,
+            0.48,
+            0.75,
+            0.52
+          ],
+          "text": "to strip away complexity."
+        },
+        {
+          "box": [
+            0.26,
+            0.52,
+            0.76,
+            0.55
+          ],
+          "text": "Find the core. The simple"
+        },
+        {
+          "box": [
+            0.28,
+            0.55,
+            0.74,
+            0.59
+          ],
+          "text": "truth. Most people hide"
+        },
+        {
+          "box": [
+            0.24,
+            0.59,
+            0.78,
+            0.63
+          ],
+          "text": "behind jargon. You will find"
+        },
+        {
+          "box": [
+            0.27,
+            0.63,
+            0.74,
+            0.66
+          ],
+          "text": "the signal. Then keep it."
+        }
+      ],
+      "expected_translation": "4. Teach someone simpler.\nSi no puedes explicárselo a un niño, no lo entiendes. Enseñar obliga a tu cerebro a eliminar la complejidad. Busca lo esencial, la verdad sencilla. La mayoría se esconde tras la jerga. Tú encontrarás la señal. Después consérvala.",
+      "translation_checks": [
+        [
+          "4"
+        ],
+        [
+          "niño"
+        ],
+        [
+          "entiendes",
+          "comprendes"
+        ],
+        [
+          "enseñar"
+        ],
+        [
+          "complejidad"
+        ],
+        [
+          "verdad"
+        ],
+        [
+          "jerga"
+        ],
+        [
+          "señal"
+        ]
+      ],
+      "source_expected": null,
+      "background_text": [
+        "Handwritten mathematical formulae: legibility/recognition ambiguous; excluded from editorial target."
+      ],
+      "ambiguous_fragments": [
+        {
+          "text": "Teach someone simpler.",
+          "reason": "Text is legible but the English title is grammatically ambiguous; do not claim a single Spanish interpretation as ground truth."
+        }
+      ],
+      "tags": [
+        "background_noise",
+        "merged_word",
+        "source_not_found"
+      ],
+      "image_sha256": "57f06ea416ebe84684083cd01ee39f2a707174076b08fa43db2cdd370b57eee1"
+    },
+    "7682913895333383456_06": {
+      "post_id": "7682913895333383456",
+      "position": 6,
+      "image": "7682913895333383456/original/06.jpg",
+      "expected_lines": [
+        "5. Join The Discord in my Bio",
+        "- Free Recources",
+        "- Premium Guides",
+        "- Best free accurate IQ tests",
+        "- 100+ sites of research"
+      ],
+      "expected_text": "5. Join The Discord in my Bio\n- Free Recources\n- Premium Guides\n- Best free accurate IQ tests\n- 100+ sites of research",
+      "expected_regions": [
+        {
+          "box": [
+            0.14,
+            0.35,
+            0.87,
+            0.4
+          ],
+          "text": "5. Join The Discord in my Bio"
+        },
+        {
+          "box": [
+            0.36,
+            0.45,
+            0.73,
+            0.5
+          ],
+          "text": "- Free Recources"
+        },
+        {
+          "box": [
+            0.27,
+            0.5,
+            0.73,
+            0.54
+          ],
+          "text": "- Premium Guides"
+        },
+        {
+          "box": [
+            0.15,
+            0.54,
+            0.87,
+            0.59
+          ],
+          "text": "- Best free accurate IQ tests"
+        },
+        {
+          "box": [
+            0.2,
+            0.59,
+            0.79,
+            0.64
+          ],
+          "text": "- 100+ sites of research"
+        }
+      ],
+      "expected_translation": "5. Únete al Discord de mi biografía.\n- Recursos gratuitos.\n- Guías prémium.\n- Los mejores tests de inteligencia gratuitos y precisos.\n- Más de 100 sitios de investigación.",
+      "translation_checks": [
+        [
+          "5"
+        ],
+        [
+          "Discord"
+        ],
+        [
+          "bio",
+          "biografía"
+        ],
+        [
+          "recursos"
+        ],
+        [
+          "guías"
+        ],
+        [
+          "test",
+          "prueba"
+        ],
+        [
+          "inteligencia",
+          "CI",
+          "IQ"
+        ],
+        [
+          "100"
+        ],
+        [
+          "investigación"
+        ]
+      ],
+      "source_expected": true,
+      "background_text": [],
+      "ambiguous_fragments": [],
+      "source_evidence": {
+        "kind": "visually_confirmed_public_source",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Teslathinker.jpg",
+        "file": ".cache/recovery-diagnosis/tesla-wiki.jpg",
+        "historical_source_file": "7682913895333383456/recovered/06_SOURCE.jpg"
+      },
+      "reconstruction_variants": [
+        "5. Join The Discord in my Bio\n- Free Resources\n- Premium Guides\n- Best free accurate IQ tests\n- 100+ sites of research"
+      ],
+      "notes": [
+        "Recources is a typo visibly present in the original image; Resources is an explicitly allowed conservative reconstruction."
+      ],
+      "tags": [
+        "source_false_rejection",
+        "ocr_background_false_detection"
+      ],
+      "image_sha256": "f10eb883754b8a3025f45f049dfc3e7db4a8a74c3e3b2acf7780c5ce81599939"
+    }
+  }
+}

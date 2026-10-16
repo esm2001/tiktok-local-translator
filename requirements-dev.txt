@@ -1,0 +1,6 @@
+pytest>=8,<10
+httpx>=0.27,<1
+# Development does not install PaddleX; use the matching headless CPU wheel.
+opencv-python-headless==4.10.0.84
+fastapi==0.141.1
+requests==2.34.2

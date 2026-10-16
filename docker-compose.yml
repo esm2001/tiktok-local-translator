@@ -1,0 +1,66 @@
+name: tiktoktranslator
+
+services:
+  translator:
+    image: ${TRANSLATOR_IMAGE:-tiktoktranslator-translator:latest}
+    build:
+      context: ./translator
+    container_name: tiktok-translator
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${TRANSLATOR_PORT:-8000}:8000"
+    env_file:
+      - .env
+    environment:
+      OUTPUT_BASE: /data/tiktok
+      TIKTOK_COOKIES: /data/secrets/cookies.txt
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-gemma3:4b}
+      OPENCV_IO_MAX_IMAGE_PIXELS: "25000000"
+    volumes:
+      - type: bind
+        source: ${OUTPUT_HOST_DIR:-../TikTokTraducidos}
+        target: /data/tiktok
+      - type: bind
+        source: ./secrets
+        target: /data/secrets
+        read_only: true
+      - type: bind
+        source: ./translator
+        target: /app
+        read_only: true
+      - paddle_models:/root/.paddlex
+      - paddle_cache:/root/.cache
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"]
+      interval: 60s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--no-access-log"]
+
+  # Optional existing automation; launcher starts translator only.
+  n8n:
+    profiles: [automation]
+    image: docker.n8n.io/n8nio/n8n:latest
+    container_name: tiktok-n8n
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5678:5678"
+    environment:
+      TZ: Europe/Madrid
+      GENERIC_TIMEZONE: Europe/Madrid
+      N8N_HOST: localhost
+      N8N_PORT: "5678"
+      N8N_PROTOCOL: http
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      translator:
+        condition: service_healthy
+
+volumes:
+  n8n_data:
+  paddle_models:
+  paddle_cache:

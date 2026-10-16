@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-03",
+  "media_root": "../TikTokTraducidos",
+  "media_root_env": "TIKTOK_REGRESSION_MEDIA",
+  "provenance": "Independent visual transcription by root and runtime agent after algorithms/model choice, before holdout OCR. New public photo carousel identified in upstream gallery-dl test suite, downloaded as JPEG photographs; no frame extraction. Kept separate from the 13-slide before/after dataset.",
+  "source_url_provenance": "https://raw.githubusercontent.com/mikf/gallery-dl/master/test/results/tiktok.py",
+  "slides": {
+    "7553302113757990166_01": {
+      "post_id": "7553302113757990166",
+      "position": 1,
+      "canonical_url": "https://www.tiktok.com/@hullcity/photo/7553302113757990166",
+      "image": ".cache/regression/holdout/7553302113757990166/original/01.jpg",
+      "image_sha256": "1702d77a3912fd64908879de418d1ea999ff993a74b0e62421a4cf88a8cd7a6f",
+      "expected_lines": [
+        "when they say “wyll” but I",
+        "already know which pic I’m",
+        "using"
+      ],
+      "expected_text": "when they say “wyll” but I\nalready know which pic I’m\nusing",
+      "expected_regions": [
+        {
+          "box": [
+            0.215,
+            0.6,
+            0.785,
+            0.665
+          ],
+          "text": "when they say “wyll” but I"
+        },
+        {
+          "box": [
+            0.2,
+            0.69,
+            0.805,
+            0.752
+          ],
+          "text": "already know which pic I’m"
+        },
+        {
+          "box": [
+            0.425,
+            0.778,
+            0.59,
+            0.847
+          ],
+          "text": "using"
+        }
+      ],
+      "source_expected": null,
+      "source_evidence": null,
+      "background_text": [],
+      "expected_editorial_empty": false,
+      "tags": [
+        "fresh_carousel",
+        "slang"
+      ],
+      "ambiguous_fragments": [
+        {
+          "ocr": "wyll",
+          "reason": "Slang abbreviation; preserve the literal quoted fragment rather than invent an expansion."
+        }
+      ],
+      "expected_translation": "Cuando me dicen «wyll», pero ya sé qué foto voy a usar.",
+      "translation_checks": [
+        [
+          "cuando"
+        ],
+        [
+          "dicen"
+        ],
+        [
+          "wyll"
+        ],
+        [
+          "foto",
+          "imagen"
+        ],
+        [
+          "usar",
+          "utilizar"
+        ]
+      ]
+    },
+    "7553302113757990166_02": {
+      "post_id": "7553302113757990166",
+      "position": 2,
+      "canonical_url": "https://www.tiktok.com/@hullcity/photo/7553302113757990166",
+      "image": ".cache/regression/holdout/7553302113757990166/original/02.jpg",
+      "image_sha256": "ce6fd21acc1bc70854b12ab790644bfac633e2cc598bf503ad9186156da4da52",
+      "expected_lines": [],
+      "expected_text": "",
+      "expected_regions": [],
+      "source_expected": null,
+      "source_evidence": null,
+      "background_text": [
+        "HULL CITY",
+        "HCAFC",
+        "EFL (ball logo; other tiny branding not transcribed)"
+      ],
+      "expected_editorial_empty": true,
+      "tags": [
+        "fresh_carousel",
+        "no_editorial_overlay"
+      ],
+      "ambiguous_fragments": [],
+      "expected_translation": "",
+      "translation_checks": []
+    }
+  }
+}
